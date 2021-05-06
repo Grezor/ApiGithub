@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ApiGithub/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/ApiGithub/static/js/main.dbb25501.chunk.js",
+    "main.js.map": "/ApiGithub/static/js/main.dbb25501.chunk.js.map",
+    "runtime-main.js": "/ApiGithub/static/js/runtime-main.992e4b17.js",
+    "runtime-main.js.map": "/ApiGithub/static/js/runtime-main.992e4b17.js.map",
+    "static/js/2.8cacabff.chunk.js": "/ApiGithub/static/js/2.8cacabff.chunk.js",
+    "static/js/2.8cacabff.chunk.js.map": "/ApiGithub/static/js/2.8cacabff.chunk.js.map",
+    "static/js/3.8fa942d5.chunk.js": "/ApiGithub/static/js/3.8fa942d5.chunk.js",
+    "static/js/3.8fa942d5.chunk.js.map": "/ApiGithub/static/js/3.8fa942d5.chunk.js.map",
+    "index.html": "/ApiGithub/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/ApiGithub/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.8cacabff.chunk.js.LICENSE.txt": "/ApiGithub/static/js/2.8cacabff.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ApiGithub/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.992e4b17.js",
+    "static/js/2.8cacabff.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.dbb25501.chunk.js"
+  ]
+}

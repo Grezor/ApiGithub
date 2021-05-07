@@ -50,7 +50,7 @@ function App() {
   }, []);
   const [items, setItems] = useState([]);
   const fetchItems = async () => {
-    const data = await fetch('https://api.github.com/users/Grezor/repos&per_page=200');
+    const data = await fetch('https://api.github.com/users/Grezor/repos');
     const items = await data.json();
     setItems(items);
   }
@@ -59,20 +59,17 @@ function App() {
   return (
     <div className="App">
        <h1>Github repository</h1>
-       <Grid container spacing={3}>
+       <Grid container>
         
             {items.map((item, index) => (
               
               <Box borderColor="primary.main" {...defaultProps} >
-              {/* <Grid item xs={6} sm={3} spacing={3}> */}
+              <Grid>
                 <Paper className={classes.paper} >
                 <h3 key={index} >{item.name}</h3>
-                
-                { repo ? <Badge color="secondary" badgeContent=" "></Badge> : <Badge color="primary" badgeContent=" "></Badge>  }
-
-                
-             
+            
                </Paper>
+               </Grid>
               </Box>
             ))}
         </Grid>

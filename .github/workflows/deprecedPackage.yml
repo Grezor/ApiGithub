@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: npm outdated
-
+      - run: echo “Appending text to the existing text file” >> testfile.txt

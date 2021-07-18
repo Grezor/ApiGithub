@@ -1,23 +1,29 @@
-import React from 'react'
-import './Navbar.css'
+import React from "react";
 import { Link } from "react-router-dom";
- 
-export default function Navbar() {
+
+import "./Navbar.css";
+
+function Navbar() {
   const navStyle = {
-    color: 'white'
+    color: "white"
   };
 
   return (
     <nav>
-      <h3>Logo</h3>
+      <h2>Logo</h2>
       <ul className="nav-links">
-        <Link style={navStyle}>
-          <li to="/repository">Repository</li>
+        <Link style={navStyle} to="/stars">
+          <li>stars</li>
         </Link>
-        <Link style={navStyle}>
-          <li to="/stars">Stars</li>
+        <Link style={navStyle} to="/repository">
+          <li>repository</li>
+        </Link>
+        <Link style={navStyle} to="/follow">
+          <li>Follow</li>
         </Link>
       </ul>
     </nav>
-  )
+  );
 }
+
+export default Navbar;

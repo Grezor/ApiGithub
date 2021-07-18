@@ -1,0 +1,9 @@
+name: Decapreced paZckages
+on:
+  schedule:
+    - cron: '0 8 * * 5'
+jobs:
+  Search-Packages:
+   runs-on: ubuntu-latest
+   steps:
+     - run: npm outdated

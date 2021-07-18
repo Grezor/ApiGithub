@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
 
 import Navbar from './components/Navbar/Navbar'
 import Stars from './components/Page/Stars'
 import Follow from './components/Page/Follow'
 import Repository from './components/Page/Repository'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './components/Page/Home'
 
-import './App.css';
 
 function App() {
   return (
@@ -23,11 +24,5 @@ function App() {
     </Router>
   );
 }
-
-const Home = () => (
-  <div>
-    <h1>home</h1>
-  </div>
-)
 
 export default App;
